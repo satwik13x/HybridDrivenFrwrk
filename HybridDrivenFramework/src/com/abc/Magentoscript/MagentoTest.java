@@ -40,7 +40,7 @@ public class MagentoTest
 			switch(action)
 			{
 			case "open":
-			driver = new FirefoxDriver();
+			driver = new  FirefoxDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
